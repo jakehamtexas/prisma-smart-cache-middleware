@@ -1,0 +1,25 @@
+{
+  "include": [
+    "src"
+  ],
+  "compilerOptions": {
+    "lib": ["ES2022"],
+    "target": "ES3",
+    "module": "CommonJS",
+    "noUnusedLocals": true,
+    "declaration": true,
+    "declarationDir": "dist/declaration",
+    "allowJs": true,
+    "checkJs": true,
+    "strict": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "alwaysStrict": true,
+    "outDir": "dist",
+    "isolatedModules": true,
+    "noUncheckedIndexedAccess": true,
+    "esModuleInterop": true,
+    "importsNotUsedAsValues": "remove",
+    "strictNullChecks": true
+  }
+}
